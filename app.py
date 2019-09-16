@@ -6,7 +6,7 @@ app = Flask(__name__)
 def home():
   return 'Jobs and jobs for all'
 
-@app.route('/templage_job')
+@app.route('/template_job')
 def templage_job():
   return 'Endpoint for template job'
   
